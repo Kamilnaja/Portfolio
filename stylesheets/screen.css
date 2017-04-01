@@ -101,31 +101,31 @@ section h2 {
 }
 
 /* line 71, ../sass/screen.scss */
-section header {
+header {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 5px;
 }
 @media (max-width: 768px) {
   /* line 71, ../sass/screen.scss */
-  section header {
+  header {
     margin-bottom: 25px;
   }
 }
 /* line 78, ../sass/screen.scss */
-section header.space-blue {
+header.space-blue {
   background-color: #196868;
 }
 /* line 81, ../sass/screen.scss */
-section header.secondary-green {
+header.secondary-green {
   background-color: #4E7504;
 }
 /* line 84, ../sass/screen.scss */
-section header.primary-red {
+header.primary-red {
   background-color: #5B3118;
 }
 /* line 87, ../sass/screen.scss */
-section header h2 {
+header h2 {
   color: white;
   padding-top: 5px;
   margin-top: 0;

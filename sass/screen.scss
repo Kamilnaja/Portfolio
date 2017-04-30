@@ -1,5 +1,5 @@
+@import 'typography';
 @import "variables";
-
 body {
   hyphens: auto;
   overflow-wrap: break-word;
@@ -10,11 +10,6 @@ body {
 .nav-item a {
   color: white;
   text-transform: uppercase;
-}
-header h1 {
-  font-size: 20px;
-  margin-bottom: 0;
-
 }
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
@@ -27,7 +22,6 @@ header h1 {
 }
 .navbar-light .navbar-brand {
   color: white;
-  font: 20px $BwMitga;
   position: relative;
   right: 18px;
   &:hover, &:active, &:visited {
@@ -63,21 +57,12 @@ section {
   @media(max-width: 768px){
     padding-bottom: 25px;
   }
-  h2 {
-    margin-top: 50px;
-    @media(max-width: 768px){
-      margin-top: 25px;
-    }
-  }
 }
 
 header {
-  @media(max-width: 768px){
-    margin-bottom: 25px;
-  }
-  width: 100%;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 5px;
+  width: 100%;
   &.space-blue {
     background-color: $space-blue;
   }
@@ -89,31 +74,26 @@ header {
   }
   h2 {
     color: white;
-    padding-top: 5px;
     margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
 .about {
   background: url(../images/star-1608407.jpg) fixed;
-  @media(min-width: 1200px) {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
   -webkit-background-size: cover;
   background-size: cover;
   background-clip: padding-box;
   filter: grayscale(0.5);
   color: white;
   h1 {
-    padding-top: 50px;
+    padding-top: 25px;
   }
 }
 footer {
   background-color: $primary-green;
   color: white;
-  padding-top: 10px;
+  padding-top: 22.5px;
 }
 //vis
 .vis-item {
@@ -129,24 +109,6 @@ footer {
   color: white;
 }
 
-//typography
-h1, h2, h3, h4 {
-  font-family: $BwMitga;
-  text-transform: uppercase;
-}
-h2 {
-  font-size:22px;
-}
-h3 {
-  font-size: 18px;
-  line-height: 1.3;
-}
-h4 {
-  font-size: 14px;
-}
-p {
-  font-family: $Open;
-}
 .books {
   margin-top: 50px;
 }
@@ -156,10 +118,6 @@ p {
 }
 .books h2, .books h3 {
   text-transform: none;
-}
-.books h2 {
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 .primary-green {
   background-color: $primary-green;

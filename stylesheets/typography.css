@@ -1,0 +1,47 @@
+/* line 4, ../sass/typography.scss */
+html {
+  font-size: 15px;
+}
+
+/* line 8, ../sass/typography.scss */
+body {
+  line-height: 22.5px;
+}
+
+/* line 12, ../sass/typography.scss */
+p, blockquote, ul, ol, dl {
+  margin: 0;
+  margin-bottom: 22.5px;
+}
+
+/* line 17, ../sass/typography.scss */
+h1 {
+  font-size: 36.62109px;
+  line-height: 37.125px;
+  margin-top: 30.375px;
+  margin-bottom: 22.5px;
+}
+
+/* line 24, ../sass/typography.scss */
+h2 {
+  font-size: 29.29688px;
+  line-height: 37.125px;
+  margin-top: 30.375px;
+  margin-bottom: 22.5px;
+}
+
+/* line 32, ../sass/typography.scss */
+h3 {
+  font-size: 23.4375px;
+  line-height: 22.5px;
+  margin-top: 25.875px;
+  margin-bottom: 19.125px;
+}
+
+/* line 39, ../sass/typography.scss */
+h4 {
+  font-size: 18.75px;
+  line-height: 22.5px;
+  margin-top: 25.875px;
+  margin-bottom: 19.125px;
+}

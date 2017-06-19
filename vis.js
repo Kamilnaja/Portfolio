@@ -5,15 +5,17 @@ var container = document.getElementById('visualisation');
 
 var items = new vis.DataSet([
     {id: 1, content: 'Ukończony pierwszy kurs HTML', start: '2013-09-20'},
-    {id: 2, content: 'Stworzenie pierwszych stron www', start: '2014-01-20'},
-    {id: 3, content: 'Praca w firmie Mapa Zdrowia', start: '2016-06-28', end: '2017-01-31'},
-    {id: 4, content: 'Praca w firmie CreateIt', start: '2017-02-01'},
-    {id: 5, content: 'Rozpoczęcie nauki JavaScript', start: '2016-01-01'},    {id: 6, content: 'Intensywna nauka tworzenia stron RWD', start: '2015-10-01'},
+    {id: 2, content: 'Pierwsza strona WWW', start: '2014-01-20'},
+    {id: 3, content: 'Front-end Developer w Mapa Zdrowia', start: '2016-06-28', end: '2017-01-31'},
+    {id: 4, content: 'Front-end Developer w firmie CreateIt', start: '2017-02-01'},
+    {id: 5, content: 'Rozpoczęcie nauki JavaScript', start: '2016-01-01'},
+    {id: 6, content: 'Nauka tworzenia stron RWD', start: '2015-10-01'},
     {id: 7, content: "Kurs PHP oraz Symfony(podstawy)", start: '2016-08-01'},
-    {id: 8, content: "Rozpoczęcie nauki Angular2", start: '2016-10-01'},
+    {id: 8, content: "Rozpoczęcie nauki Angular2 & AngularJS", start: '2016-05-01'},
     {id: 9, content: "Rozpoczęcie nauki Node.js", start: '2017-02-01'},
-    {id: 10, content: "Stworzenie pierwszego szablonu Joomla", start: '2013-10-25'},
-    {id: 11, content: 'Praca jako freelancer', start: '2013-11-25', end: '2015-10-01'}
+    {id: 11, content: 'Praca jako freelancer - copywriting, content-marketing', start: '2013-11-25', end: '2015-10-01'},
+    {id: 12, content: 'Front-end Developer w Nexio', start: '2017-06-06'},
+    {id: 13, content: 'Rozpoczęcie nauki C#', start: '2017-06-06'}
 
 ]);
 

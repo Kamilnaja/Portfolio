@@ -12,9 +12,9 @@
 ">
   <link rel="stylesheet" href="stylesheets/screen.css">
   <script
-  src="http://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+      src="http://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -29,24 +29,22 @@
         <h1>Kamil Naja - front-end developer</h1>
       </div>
       <div class="col-md-8">
-        <p>Cześć, nazywam się Kamil Naja i jestem front-end developerem. Moją pasją jest tworzenie zaawansowanych stron WWW, z użyciem takich technologii, jak HTML, CSS i JS.</p>
+        <p>Cześć, nazywam się Kamil Naja i jestem front-end developerem. Moją pasją jest tworzenie zaawansowanych stron
+          WWW, z użyciem takich technologii, jak HTML, CSS i JS.</p>
         <p>
-          Oferuje pomoc w tworzeniu stron internetowych oraz aplikacji webowych. Jestem programistą webowym,
-          specjalizującym się we frontendzie. Oprócz tego, posiadam kilka lat doświadczenia w promocji stron WWW.
+          Oferuje pomoc w tworzeniu stron internetowych oraz aplikacji webowych. Zajmuę się także "cięciem" layoutów
+          stron w PSD lub innych formatach.
         </p>
         <p>Pomogę Ci w stworzeniu interesującej, dobrze wyglądającej, a co najważniejsze, konwertującej strony
           internetowej.</p>
         <p>Tworzeniem stron www zajmuję się od listopada 2015.</p>
+        <a href="mailto:kamilnaja@gmail.com" class="btn btn-primary">Napisz do mnie</a>
       </div>
     </div>
   </div>
 </section>
 <section id="tech" class="tech">
-  <header class="space-blue">
-    <div class="container">
-      <h2>Technologie</h2>
-    </div>
-  </header>
+  <!--todo - dodać podkreślenie pod nagłówkami-->
   <div class="container">
     <div class="row">
       <div class="col-md-8">
@@ -57,22 +55,43 @@
           nim, praca nad stroną internetową lub aplikacją mobilną przebiega szybciej. Poniżej przedstawiam
           technologie, z których korzystałem podczas projektów komercyjnych i niekomercyjnych.
         </p>
-        <p>W wolnych chwilach odpalam Webstorma i tworzę aplikacje i gry w JS</p>
         <h3>Używam/znam</h3>
         <ul>
           <li>HTML5</li>
-          <li>CSS3</li>
           <li>Sass/Less</li>
-          <li>Bootstrap 3/4</li>
-          <li>JS & jQuery, w tym pluginy:
+          <li>CSS3</li>
+          <ul>
+            <li>Frameworki CSS</li>
             <ul>
-              <li>Vis.js</li>
-              <li>Slick.js</li>
-              <li>jQuery Validation</li>
-              <li>Sweet Alert</li>
-              <li>Isotope</li>
+              <li>Bootstrap 3/4</li>
+              <li>Bulma.css</li>
+              <li>Foundation</li>
             </ul>
-          </li>
+          </ul>
+          <li>JS & jQuery</li>
+          <ul>
+            <li>
+              Pluginy
+              <ul>
+                <li>Vis.js</li>
+                <li>Slick.js</li>
+                <li>jQuery Validation</li>
+                <li>Sweet Alert</li>
+                <li>Isotope</li>
+                <li>Chart.js</li>
+                <li>D3.js</li>
+              </ul>
+            </li>
+            <li>Frameworki</li>
+            <ul>
+              <li>AngularJS/Angular2</li>
+              <li>Node.js (podstawy)</li>
+              <li>Express.js (podstawy)</li>
+              <li>React.js (podstawy)</li>
+            </ul>
+          </ul>
+
+
         </ul>
         <h3>Narzędzia</h3>
         <ul>
@@ -82,41 +101,34 @@
           <li>Jira, Trello, ActiveCollab</li>
           <li>Virtualbox (system gościa - Linux)</li>
           <li>Adobe Photoshop</li>
-          <li>Edytor tekstu - PhpStorm, Webstorm, czasem - Vim</li>
+          <li>Edytor tekstu - PhpStorm/Sublime Text</li>
         </ul>
         <h3>Technologie backendowe z którymi pracowałem jako frontend</h3>
         <ul>
           <li>Wordpress</li>
           <li>Twig</li>
           <li>Node JS</li>
+          <li>Umbraco CMS (.net)</li>
+          <li>Liferay (Java)</li>
         </ul>
-        <h3>Uczę się</h3>
-        <ul>
-          <li>Angular2/AngularJS</li>
-          <li>NodeJS</li>
-          <li>Pug/Jade</li>
-          <li>MongoDB</li>
-          <li>Mocha, Chai</li>
-        </ul>
+
         <h3>W planach</h3>
         <ul>
           <li>ROR</li>
           <li>Vue.js</li>
+          <li>WebGL</li>
+          <li>Phaser.js</li>
         </ul>
       </div>
     </div>
   </div>
 </section>
+
 <section class="projects">
-  <header class="secondary-green" id="proj">
-    <div class="container">
-      <h2>Projekty/doświadczenie</h2>
-    </div>
-  </header>
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <h2>Moje projekty</h2>
+        <h2>Projekty/doświadczenie</h2>
         <p>
           Front-endu uczę się od listopada 2015. Od czerwca 2016 pracuję jako front-end developer. W
           portfolio
@@ -154,6 +166,8 @@
       </div>
     </div>
   </div>
+</section>
+<section class="timeline">
   <div class="container hidden-sm-down">
     <h2>Obejrzyj moje doświadczenie na osi czasu</h2>
   </div>
@@ -162,15 +176,10 @@
   </div>
 </section>
 <section id="cont">
-  <header class="primary-red">
-    <div class="container">
-      <h2>Kontakt</h2>
-    </div>
-  </header>
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <h2>Napisz do mnie</h2>
+        <h2>Kontakt</h2>
         <p>
           Front-endu uczę się od listopada 2015. Od czerwca 2016 pracuję jako front-end developer.
         </p>
@@ -185,7 +194,7 @@
         <p>Jeśli myślisz, że mogę pomóc Ci w stworzeniu świetnej strony lub poprawieniu strony, którą masz
           aktualnie, zwróć się do mnie.</p>
         <p>
-        <h2>Kontakt</h2>
+        <h3>Kontakt</h3>
         <ul>
           <li>email - kamilnaja(at)gmail.com</li>
           <li>skype - kamil.naja1 (po uprzednim umówieniu się przez e-mail)</li>
@@ -198,9 +207,9 @@
 </section>
 <div id="footer"></div>
 <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.18.1/vis.min.js"></script>
 <script src="vis.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"

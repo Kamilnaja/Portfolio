@@ -109,60 +109,78 @@ section {
   background-size: 4px 4px;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
+section.projects {
+  background-image: none;
+  color: white;
+  background-color: #406EA0;
+}
+/* line 46, ../sass/screen.scss */
+section.projects a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* line 51, ../sass/screen.scss */
+section.timeline {
+  background-image: none;
+  color: black;
+}
+
+/* line 55, ../sass/screen.scss */
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: white;
   text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .navbar-toggler-icon {
   margin-top: -3px;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .navbar-light .navbar-toggler-icon {
   background-image: url("../images/dots.png");
   background-size: contain;
 }
 
-/* line 55, ../sass/screen.scss */
-section {
+/* line 67, ../sass/screen.scss */
+section.about {
   padding-bottom: 50px;
 }
 @media (max-width: 768px) {
-  /* line 55, ../sass/screen.scss */
-  section {
+  /* line 67, ../sass/screen.scss */
+  section.about {
     padding-bottom: 25px;
   }
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 header {
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100%;
 }
-/* line 66, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 header.space-blue {
   background-color: #196868;
 }
-/* line 69, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 header.secondary-green {
   background-color: #4E7504;
 }
-/* line 72, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 header.primary-red {
   background-color: #5B3118;
 }
-/* line 75, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 header h2 {
   color: white;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .about {
   background: url(../images/star-1608407.jpg) fixed;
   -webkit-background-size: cover;
@@ -171,53 +189,53 @@ header h2 {
   filter: grayscale(0.5);
   color: white;
 }
-/* line 89, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .about h1 {
   padding-top: 25px;
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 footer {
   background-color: #628C01;
   color: white;
   padding-top: 22.5px;
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 .vis-item {
   font-size: 12px;
   text-transform: uppercase;
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .vis-item:nth-child(odd) {
   background-color: #4E7504;
   color: white;
 }
 
-/* line 107, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .vis-item:nth-child(even) {
   background-color: #628C01;
   color: white;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .books {
   margin-top: 50px;
 }
 
-/* line 115, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 .books-list li {
   list-style-type: none;
   border-bottom: 1px dashed green;
 }
 
-/* line 119, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .books h2, .books h3 {
   text-transform: none;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .primary-green {
   background-color: #628C01;
 }

@@ -1,241 +1,168 @@
-/* line 4, ../sass/typography.scss */
 html {
-  font-size: 15px;
-}
+  font-size: 15px; }
 
-/* line 8, ../sass/typography.scss */
 body {
-  line-height: 22.5px;
-}
+  line-height: 22.5px; }
 
-/* line 12, ../sass/typography.scss */
 p, blockquote, ul, ol, dl {
   margin: 0;
-  margin-bottom: 22.5px;
-}
+  margin-bottom: 22.5px; }
 
-/* line 17, ../sass/typography.scss */
 h1 {
   font-size: 36.62109px;
   line-height: 37.125px;
   margin-top: 30.375px;
-  margin-bottom: 22.5px;
-}
+  margin-bottom: 22.5px; }
 
-/* line 24, ../sass/typography.scss */
 h2 {
   font-size: 29.29688px;
   line-height: 37.125px;
   margin-top: 30.375px;
-  margin-bottom: 22.5px;
-}
+  margin-bottom: 22.5px; }
 
-/* line 32, ../sass/typography.scss */
 h3 {
   font-size: 23.4375px;
   line-height: 22.5px;
   margin-top: 25.875px;
-  margin-bottom: 19.125px;
-}
+  margin-bottom: 19.125px; }
 
-/* line 39, ../sass/typography.scss */
 h4 {
   font-size: 18.75px;
   line-height: 22.5px;
   margin-top: 25.875px;
-  margin-bottom: 19.125px;
-}
+  margin-bottom: 19.125px; }
 
 @font-face {
   font-family: BwMitga;
   src: url("../fonts/Branding with Type - BwMitga-Regular.otf");
-  src: url("../fonts/Branding with Type - BwMitga-Regular.otf");
-}
-/* line 3, ../sass/screen.scss */
+  src: url("../fonts/Branding with Type - BwMitga-Regular.otf"); }
+
 body {
   hyphens: auto;
-  overflow-wrap: break-word;
-}
+  overflow-wrap: break-word; }
 
-/* line 7, ../sass/screen.scss */
 .navbar {
-  background-color: #628c01;
-}
+  background-color: #628c01; }
 
-/* line 10, ../sass/screen.scss */
 .nav-item a {
   color: white;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
-/* line 14, ../sass/screen.scss */
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.open,
 .navbar-light .navbar-nav .open > .nav-link {
-  color: white;
-}
+  color: white; }
 
-/* line 20, ../sass/screen.scss */
 .navbar-light .navbar-nav .nav-link {
-  color: white;
-}
+  color: white; }
 
-/* line 23, ../sass/screen.scss */
 .navbar-light .navbar-brand {
   color: white;
   position: relative;
-  right: 18px;
-}
-/* line 27, ../sass/screen.scss */
-.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:active, .navbar-light .navbar-brand:visited {
-  color: white;
-  text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
-}
+  right: 18px; }
+  .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:active, .navbar-light .navbar-brand:visited {
+    color: white;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5); }
 
-/* line 32, ../sass/screen.scss */
 .bg-faded {
-  background-color: #628C01;
-}
+  background-color: #628C01; }
 
-/* line 35, ../sass/screen.scss */
 .navbar-light .navbar-toggler {
-  border-color: transparent;
-}
+  border-color: transparent; }
 
-/* line 38, ../sass/screen.scss */
 section {
   background-image: linear-gradient(-45deg, rgba(184, 200, 235, 0.1) 25%, transparent 25%, transparent 50%, rgba(184, 200, 235, 0.1) 50%, #B8C8EB 75%, transparent 75%, transparent);
-  background-size: 4px 4px;
-}
+  background-size: 4px 4px; }
 
-/* line 42, ../sass/screen.scss */
 section.projects {
   background-image: none;
   color: white;
-  background-color: #406EA0;
-}
-/* line 46, ../sass/screen.scss */
-section.projects a {
-  color: white;
-  text-decoration: underline;
-}
+  background-color: #406EA0; }
+  section.projects a {
+    color: white;
+    text-decoration: underline; }
 
-/* line 51, ../sass/screen.scss */
 section.timeline {
   background-image: none;
-  color: black;
-}
+  color: black; }
 
-/* line 55, ../sass/screen.scss */
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
   color: white;
-  text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
-}
+  text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5); }
 
-/* line 60, ../sass/screen.scss */
 .navbar-toggler-icon {
-  margin-top: -3px;
-}
+  margin-top: -3px; }
 
-/* line 63, ../sass/screen.scss */
 .navbar-light .navbar-toggler-icon {
   background-image: url("../images/dots.png");
-  background-size: contain;
-}
+  background-size: contain; }
 
-/* line 67, ../sass/screen.scss */
 section.about {
-  padding-bottom: 50px;
-}
-@media (max-width: 768px) {
-  /* line 67, ../sass/screen.scss */
-  section.about {
-    padding-bottom: 25px;
-  }
-}
+  padding-bottom: 50px; }
+  @media (max-width: 768px) {
+    section.about {
+      padding-bottom: 25px; } }
 
-/* line 74, ../sass/screen.scss */
 header {
   padding-top: 5px;
   padding-bottom: 5px;
-  width: 100%;
-}
-/* line 78, ../sass/screen.scss */
-header.space-blue {
-  background-color: #196868;
-}
-/* line 81, ../sass/screen.scss */
-header.secondary-green {
-  background-color: #4E7504;
-}
-/* line 84, ../sass/screen.scss */
-header.primary-red {
-  background-color: #5B3118;
-}
-/* line 87, ../sass/screen.scss */
-header h2 {
-  color: white;
-  margin-top: 0;
-  margin-bottom: 0;
-}
+  width: 100%; }
+  header.space-blue {
+    background-color: #196868; }
+  header.secondary-green {
+    background-color: #4E7504; }
+  header.primary-red {
+    background-color: #5B3118; }
+  header h2 {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0; }
 
-/* line 94, ../sass/screen.scss */
 .about {
   background: url(../images/star-1608407.jpg) fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-clip: padding-box;
   filter: grayscale(0.5);
-  color: white;
-}
-/* line 101, ../sass/screen.scss */
-.about h1 {
-  padding-top: 25px;
-}
+  color: white; }
+  .about h1 {
+    padding-top: 25px; }
 
-/* line 105, ../sass/screen.scss */
 footer {
   background-color: #628C01;
   color: white;
-  padding-top: 22.5px;
-}
+  padding-top: 22.5px; }
 
-/* line 111, ../sass/screen.scss */
 .vis-item {
   font-size: 12px;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
-/* line 115, ../sass/screen.scss */
 .vis-item:nth-child(odd) {
   background-color: #4E7504;
-  color: white;
-}
+  color: white; }
 
-/* line 119, ../sass/screen.scss */
 .vis-item:nth-child(even) {
   background-color: #628C01;
-  color: white;
-}
+  color: white; }
 
-/* line 124, ../sass/screen.scss */
 .books {
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
-/* line 127, ../sass/screen.scss */
 .books-list li {
   list-style-type: none;
-  border-bottom: 1px dashed green;
-}
+  border-bottom: 1px dashed green; }
 
-/* line 131, ../sass/screen.scss */
 .books h2, .books h3 {
-  text-transform: none;
-}
+  text-transform: none; }
 
-/* line 134, ../sass/screen.scss */
 .primary-green {
-  background-color: #628C01;
-}
+  background-color: #628C01; }
+
+.articles {
+  background-image: url("../images/space.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white; }

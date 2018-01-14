@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamilnaja/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kamilnaja/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Kamilnaja/Portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}

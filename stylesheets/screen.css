@@ -8,7 +8,7 @@ body {
 
 p, blockquote, ul, ol, dl {
   margin: 0;
-  margin-bottom: 22.5px;
+  margin-bottom: 12.5px;
 }
 
 h1 {
@@ -91,6 +91,7 @@ body {
 section {
   background-image: linear-gradient(-45deg, rgba(184, 200, 235, 0.1) 25%, transparent 25%, transparent 50%, rgba(184, 200, 235, 0.1) 50%, #B8C8EB 75%, transparent 75%, transparent);
   background-size: 4px 4px;
+  padding-bottom: 25px;
 }
 
 section.projects {
@@ -176,42 +177,19 @@ footer {
   padding-top: 22.5px;
 }
 
-.vis-item {
-  font-size: 12px;
-  text-transform: uppercase;
-}
-
-.vis-item:nth-child(odd) {
-  background-color: #4E7504;
-  color: white;
-}
-
-.vis-item:nth-child(even) {
-  background-color: #628C01;
-  color: white;
-}
-
-.books {
-  margin-top: 50px;
-}
-
-.books-list li {
-  list-style-type: none;
-  border-bottom: 1px dashed green;
-}
-
-.books h2, .books h3 {
-  text-transform: none;
-}
-
 .primary-green {
   background-color: #628C01;
 }
 
 .articles {
-  background-image: url("../images/space.jpg");
-  background-size: cover;
+  background-image: url("../images/space1.jpg");
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
+}
+
+.link--white {
+  color: white;
+  text-decoration: underline;
 }
